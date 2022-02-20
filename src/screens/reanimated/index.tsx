@@ -7,6 +7,7 @@ const ReanimatedMainScreen = (): JSX.Element => {
     return (
         <View>
             <NavigateItem label="Loader" screen="ReanimatedLoader" />
+            <NavigateItem label="Button" screen="ReanimatedButton" />
         </View>
     )
 }
